@@ -13,8 +13,10 @@ const Navbar = () => {
               <div className="list-group list-group-flush mx-3 mt-4">
                 <a href="#" className="list-group-item list-group-item-action py-2 ripple" aria-current="true">
                   <i className="fas fa-tachometer-alt fa-fw me-3" /><span>Dashboard</span>
+                <a href="https://google.com" className="list-group-item list-group-item-action py-2 ripple hov" aria-current="true">
+                  <i className="fas fa-tachometer-alt fa-fw me-3 hov" /><span>Main dashboard</span>
                 </a>
-                <a href="#" className="list-group-item list-group-item-action py-2 ripple active">
+                <a href="#" className="list-group-item list-group-item-action py-2 ripple hov">
                   <i className="fas fa-chart-area fa-fw me-3" /><span>Inventory</span>
                 </a>
                 <a href="#" className="list-group-item list-group-item-action py-2 ripple active">
@@ -35,6 +37,12 @@ const Navbar = () => {
                 </a>
                 <a href="#" className="list-group-item list-group-item-action py-2 ripple"><i className="fas fa-chart-bar fa-fw me-3" /><span>Analytics</span></a>
                 <a href="#" className="list-group-item list-group-item-action py-2 ripple"><i className="fas fa-globe fa-fw me-3" /><span> Stock</span></a>
+                <a href="#" className="list-group-item list-group-item-action py-2 ripple hov "><i className="fas fa-chart-line fa-fw me-3" /><span>Orders</span></a>
+                <a href="#" className="list-group-item list-group-item-action py-2 ripple  hov">
+                  <i className="fas fa-chart-pie fa-fw me-3" /><span>Sales</span>
+                </a>
+                <a href="#" className="list-group-item list-group-item-action py-2 ripple hov"><i className="fas fa-chart-bar fa-fw me-3" /><span>Analytics</span></a>
+                <a href="#" className="list-group-item list-group-item-action py-2 ripple hov"><i className="fas fa-globe fa-fw me-3" /><span> Stock</span></a>
               </div>
             </div>
           </nav>
