@@ -1,9 +1,9 @@
 import React from 'react';
 import './nav.css';
-const Navbar = () => {
-  return (
+const Navbar=()=>{
+return(
 
-    <navbar>
+ <navbar>
       <div>
         {/*Main Navigation*/}
         <header>
@@ -11,33 +11,12 @@ const Navbar = () => {
           <nav id="sidebarMenu" className="collapse d-lg-block sidebar collapse bg-white">
             <div className="position-sticky">
               <div className="list-group list-group-flush mx-3 mt-4">
-                <a href="#" className="list-group-item list-group-item-action py-2 ripple" aria-current="true">
-                  <i className="fas fa-tachometer-alt fa-fw me-3" /><span>Dashboard</span>
-                  </a>
                 <a href="https://google.com" className="list-group-item list-group-item-action py-2 ripple hov" aria-current="true">
                   <i className="fas fa-tachometer-alt fa-fw me-3 hov" /><span>Main dashboard</span>
                 </a>
                 <a href="#" className="list-group-item list-group-item-action py-2 ripple hov">
                   <i className="fas fa-chart-area fa-fw me-3" /><span>Inventory</span>
                 </a>
-                <a href="#" className="list-group-item list-group-item-action py-2 ripple active">
-                  <i className="fas fa-chart-area fa-fw me-3" /><span>Add delivery</span>
-                </a>
-                <a href="#" className="list-group-item list-group-item-action py-2 ripple active">
-                  <i className="fas fa-chart-area fa-fw me-3" /><span>Add dispatch</span>
-                </a>
-                <a href="#" className="list-group-item list-group-item-action py-2 ripple"><i className="fas fa-chart-line fa-fw me-3" /><span>Orders</span></a>
-                <a href="#" className="list-group-item list-group-item-action py-2 ripple">
-                  <i className="fas fa-chart-pie fa-fw me-3" /><span>Sales</span>
-                </a>
-                <a href="#" className="list-group-item list-group-item-action py-2 ripple">
-                  <i className="fas fa-chart-pie fa-fw me-3" /><span>expires</span>
-                </a>
-                <a href="#" className="list-group-item list-group-item-action py-2 ripple">
-                  <i className="fas fa-chart-pie fa-fw me-3" /><span>logout</span>
-                </a>
-                <a href="#" className="list-group-item list-group-item-action py-2 ripple"><i className="fas fa-chart-bar fa-fw me-3" /><span>Analytics</span></a>
-                <a href="#" className="list-group-item list-group-item-action py-2 ripple"><i className="fas fa-globe fa-fw me-3" /><span> Stock</span></a>
                 <a href="#" className="list-group-item list-group-item-action py-2 ripple hov "><i className="fas fa-chart-line fa-fw me-3" /><span>Orders</span></a>
                 <a href="#" className="list-group-item list-group-item-action py-2 ripple  hov">
                   <i className="fas fa-chart-pie fa-fw me-3" /><span>Sales</span>
@@ -63,7 +42,7 @@ const Navbar = () => {
               </a>
               {/* Search form */}
               <form className="d-none d-md-flex input-group w-auto my-auto">
-                <input autoComplete="off" type="search" className="form-control rounded" placeholder="Search (ctrl + &quot;/&quot; to focus)" style={{ minWidth: '225px' }} />
+                <input autoComplete="off" type="search" className="form-control rounded" placeholder="Search (ctrl + &quot;/&quot; to focus)" style={{minWidth: '225px'}} />
                 <span className="input-group-text border-0"><i className="fas fa-search" /></span>
               </form>
               {/* Right links */}
@@ -162,15 +141,15 @@ const Navbar = () => {
         </header>
         {/*Main Navigation*/}
         {/*Main layout*/}
-        <main style={{ marginTop: '58px' }}>
+        <main style={{marginTop: '58px'}}>
           <div className="container pt-4" />
         </main>
         {/*Main layout*/}
       </div>
 
-    </navbar>
+</navbar>
 
-  );
+);
 
 
 };
