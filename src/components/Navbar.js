@@ -13,6 +13,7 @@ const Navbar = () => {
               <div className="list-group list-group-flush mx-3 mt-4">
                 <a href="#" className="list-group-item list-group-item-action py-2 ripple" aria-current="true">
                   <i className="fas fa-tachometer-alt fa-fw me-3" /><span>Dashboard</span>
+                  </a>
                 <a href="https://google.com" className="list-group-item list-group-item-action py-2 ripple hov" aria-current="true">
                   <i className="fas fa-tachometer-alt fa-fw me-3 hov" /><span>Main dashboard</span>
                 </a>
